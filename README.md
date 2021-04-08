@@ -1,22 +1,6 @@
-## [English Doc](https://github.com/azhon/AppUpdate/blob/master/README-EN.md)
 
-<p align="center"><img src="https://github.com/azhon/AppUpdate/blob/master/img/logo.png"></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/miniSdk-15%2B-blue.svg">
-  <img src="https://img.shields.io/badge/jcenter%20version-3.0.3-brightgreen.svg">
-  <img src="https://img.shields.io/badge/author-azhon-%23E066FF.svg">
-  <img src="https://img.shields.io/badge/license-Apache2.0-orange.svg">
+项目原地址:https://github.com/azhon/AppUpdate
 </p>
-
-### 自3.0.0版本开始可以使用[AppUpdate日志查询](http://azhong.tk:8088/app/)可以查看下载的异常信息，也可以查看哪些App正在使用，还可以一起来讨论问题哦！
-### [由于Android Q版本限制后台应用启动Activity，所以下载完成会发送一个通知至通知栏（忽略showNotification的值，需要允许发送通知）](https://developer.android.google.cn/guide/components/activities/background-starts)
-
-[![Stargazers over time](https://starchart.cc/azhon/AppUpdate.svg)](https://starchart.cc/azhon/AppUpdate)
-
-## 扫码加入QQ群(群号：828385813)
-
-<img
-src="https://github.com/azhon/AppUpdate/blob/master/img/qq_group.png">
 
 ## 目录
 
@@ -54,9 +38,6 @@ src="https://github.com/azhon/AppUpdate/blob/master/img/qq_group.png">
 * [x] 支持下载完成 打开新版本后删除旧安装包文件
 * [x] 使用HttpURLConnection下载，未集成其他第三方框架
 
-### Demo下载体验
-
- [点击下载Demo进行体验](https://github.com/azhon/AppUpdate/releases/tag/V3.0.1)
 
 ### DownloadManager：配置文档
 
@@ -167,8 +148,3 @@ public class MyDownload extends BaseHttpDownloadManager {}
 
 * [更多更新记录点此查看](https://github.com/azhon/AppUpdate/wiki/更新日志)
 
-### 赞赏
-> 如果这个库有帮助到你并且你很想支持库的后续开发和维护，那么你可以扫描下方二维码随意打赏我，我将不胜感激[赞赏列表](https://github.com/azhon/AppUpdate/wiki/%E8%B5%9E%E8%B5%8F%E5%88%97%E8%A1%A8)
-
-
-<img src="https://github.com/azhon/AppUpdate/blob/master/img/money.jpg" width="600"/>
